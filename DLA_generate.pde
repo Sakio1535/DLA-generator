@@ -49,7 +49,6 @@ void draw() {
     if(seed.isCollision (cluster, seed) ) {
       cluster.add(seed); //クラスターに加えて
       seeds.remove(i); //取り除く
-                      //シード群に追加する
     }
   }
 }
